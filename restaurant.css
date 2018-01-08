@@ -1,4 +1,152 @@
-<!DOCTYPE html>
-<html>
-<head>
+h1 {
+  font-family: 'chewy';
+  font-size: 35px;
+  padding-left: 20px;
+  padding-right:20px;
+  color: black;
+  text-align: center;
+  background-color:white;
 
+}
+
+p {
+  font-family:'Passion One', cursive; 
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 35px;
+  color: black;
+  text-align: left;
+}
+.img-circle {
+border-radius: 50%;
+border: 3px solid black;
+height: 100px;
+width: 100px;
+margin-bottom: 10px;
+margin-left: 10px;
+}
+img {
+  border: 15px solid black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+nav {
+  background: url("bgq.png") no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
+  border-bottom: thin solid black;
+  padding-top: 0px;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: url("bg2.png");
+  background-size: 2500px 3000px;
+
+}
+
+nav ul li, footer ul li, #nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: black;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+nav ul li, footer ul li, #nav ul li {
+  display: inline;
+  margin-right: 20px;
+  color: black;
+  font-size: 30px;
+
+}
+
+nav ul, footer ul{
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+}
+
+#container {
+  border-bottom: thin solid black;
+}
+
+#img {
+  width: 130px;
+  height: 120px;
+  margin-bottom: -35px;
+  margin-top: 12px;
+}
+
+#help {
+  float: right;
+}
+
+#help {
+  border-radius: 4px;
+  background-color: #f49373;
+  border: none;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  float: right;
+  margin-top: 22px;
+}
+
+#help span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#help span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#help:hover span {
+  padding-right: 25px;
+}
+
+#help:hover span:after {
+  opacity: 1;
+  right: 0;
