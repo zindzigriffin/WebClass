@@ -1,64 +1,38 @@
 body {
-  font-family: 'Chewy';
-  background-color:white;
-  text-align: center;
+  background-color: red;
 }
-/*Allows my html links to change color when mouse hovers over*/
-a:hover {
-  background-color: pink;
-}
-/* This centers all my text on a page */
-.Centerer
-{
-  display: block;
-  margin: auto;
-}
-#content {
-  position: relative;
-}
-table, th, thd {
-  border: 1 px solid black;
-}
-.menuDiv
-{
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz transform: translate(-50%, -50%);
-  -o-transform: translate (-50%, -50%);
-  padding: 2px 4px 2px 4px;
-}
-.menuButtons {
-  display: inline-block;
-  border: 1px solid #333;
-  box-shadow: 2px 4px 2px #444;
-  padding: 2px 12px;
-  width: 125px;
-}
-#MyImages {
-  margin: auto;
-}
-/* How to create different color when activates*/
-a: link, activated {
+h1{
+  color: black;
+  font-family: "Times New Roman", Times, serif;
   background-color: white;
-  color: red;
-      */
-       padding: 15px 25px;
-       text-align: center;
-       text-decoration: none;
-       display: inline-block;
+  padding-right: 110px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 100px;
+  font-family: "Times New Roman", Times, serif;
+  outline: 10px solid black;
 }
-a: hover, a: activate {
-/*
-  border: 1px solid #333;
-  box-shadow: 2px 4px 2px #444;
-  padding: 2px 12px; */
+p{
+  margin-right: 300px;
+  font-family: 'Bellefair', serif;
 }
-img{
-  padding:5px;
-  border:5px solid :black;
-  background-color:white;]
+a: link a:visited {
+  background-color: white;
+  color: black;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 100px;
+  margin-right: 22px;
+  font-family: "Times New Roman", Times, serif;\
 }
-  
-  
-  
+a:hover a:active {
+  background-color: red;
+  outline: 10px solid black;
+}
