@@ -1,5 +1,5 @@
 html{background-color: red}
-body{font-family: 'Chewy';}
+body{<link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">}
 h1{background-color: white;width:300px;border: 30px;margin: 25px;padding: 25px }
 a:link, a:visited {
   background-color: red;
