@@ -3,7 +3,7 @@ body {
 }
 h1{
   color: black;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Chewy', cursive;
   background-color: white;
   padding-right: 110px;
   padding-bottom: 20px;
@@ -13,12 +13,12 @@ h1{
   display: inline-block;
   margin-top: 5px;
   margin-left: 100px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Chewy', cursive;
   outline: 10px solid black;
 }
 p{
   margin-right: 300px;
-  font-family: 'Bellefair', serif;
+  font-family: 'Chewy', cursive;
 }
 a: link a:visited {
   background-color: white;
@@ -30,7 +30,7 @@ a: link a:visited {
   margin-top: 25px;
   margin-left: 100px;
   margin-right: 22px;
-  font-family: "Times New Roman", Times, serif;\
+  font-family: 'Chewy', cursive;
 }
 a:hover a:active {
   background-color: red;
