@@ -41,14 +41,7 @@ table{
 	margin-bottom: -5px;
 }
 
-img.logo{
-	width: 700px;
-	height: 350px;
-	border-width: 4px;
-	background-color: white;
-	border-style: outset;
-	border-color: red;
-}
+
 
 body{
 	background-color: red;
