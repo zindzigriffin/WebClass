@@ -22,7 +22,6 @@ h1{
 	color: #cc0000;
 	margin: auto;
 	background-color: white;
-	border-style: groove;
 	border-color: red; 
 	margin-bottom: -10px;
 	font-size: 250%;
@@ -52,22 +51,8 @@ img.logo{
 }
 
 body{
-	 background-image:
-      -moz-linear-gradient(45deg, #000 25%, transparent 25%), 
-      -moz-linear-gradient(-45deg, #000 25%, transparent 25%),
-      -moz-linear-gradient(45deg, transparent 75%, #000 75%),
-      -moz-linear-gradient(-45deg, transparent 75%, #000 75%);
-    background-image:
-      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #000), color-stop(.25, transparent)), 
-      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #000), color-stop(.25, transparent)),
-      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #000)),
-      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #000));
+	background-color: red;
 
-    -moz-background-size:100px 100px;
-    background-size:100px 100px;
-    -webkit-background-size:100px 101px; 
-    
-    background-position:0 0, 50px 0, 50px -50px, 0px 50px; /* credit to http://lea.verou.me/2011/02/checkerboard-pattern-with-css3*/
 }
 
 ul{
