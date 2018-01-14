@@ -1,42 +1,86 @@
-body {
-  background-color: red;
+th{
+	border-width: 3px;
+	border-color: red;
+	border-style: solid;
+	padding: 8px; 
+	background-color: white;
+	font-size: 130%;
+}
+th.food{
+	padding: 8px; 
+	padding-top: 3px;
+	background-color: white;
+	border-radius: 600px;
+	padding-top: 8px;
+}
+img{
+	width: 350px;
+	height: 200px;
 }
 h1{
-  color: black;
-  font-family: 'Chewy', cursive;
-  background-color: white;
-  padding-right: 110px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-left: 30px;
-  text-align: center;
-  display: inline-block;
-  margin-top: 5px;
-  margin-left: 100px;
-  font-family: 'Chewy', cursive;
-  outline: 10px solid black;
+	text-align: center;
+	color: #cc0000;
+	margin: auto;
+	background-color: white;
+	border-style: groove;
+	border-color: red; 
+	margin-bottom: -10px;
+	font-size: 250%;
+	width: 100px;
+	border-radius: 1000px;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
+
+a{
+	color: blue;
+}
+
+table{
+	font-family: "Palatino";
+	margin-bottom: -5px;
+}
+
+img.logo{
+	width: 700px;
+	height: 350px;
+	border-width: 4px;
+	background-color: white;
+	border-style: outset;
+	border-color: red;
+}
+
+body{
+	 background-image:
+      -moz-linear-gradient(45deg, #000 25%, transparent 25%), 
+      -moz-linear-gradient(-45deg, #000 25%, transparent 25%),
+      -moz-linear-gradient(45deg, transparent 75%, #000 75%),
+      -moz-linear-gradient(-45deg, transparent 75%, #000 75%);
+    background-image:
+      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, #000), color-stop(.25, transparent)), 
+      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, #000), color-stop(.25, transparent)),
+      -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.75, transparent), color-stop(.75, #000)),
+      -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.75, transparent), color-stop(.75, #000));
+
+    -moz-background-size:100px 100px;
+    background-size:100px 100px;
+    -webkit-background-size:100px 101px; 
+    
+    background-position:0 0, 50px 0, 50px -50px, 0px 50px; /* credit to http://lea.verou.me/2011/02/checkerboard-pattern-with-css3*/
+}
+
+ul{
+	list-style-type: square;
+}
+
+td{
+	background-color: white;
+	border-color: red;
+	border-style: solid;
+	border-width: 3px;
+}
+
 p{
-  margin-right: 300px;
-  font-family: 'Chewy', cursive;
-}
-a: link a:visited {
-  background-color: white;
-  color: black;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  text-align: center;
-  margin-top: 25px;
-  margin-left: 100px;
-  margin-right: 22px;
-  font-family: 'Chewy', cursive;
-}
-a:hover a:active {
-  background-color: red;
-  outline: 10px solid black;
-}
-img {
-  width: 300px;
-  height: 300px;
+	text-align: center;
 }
