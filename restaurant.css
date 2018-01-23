@@ -61,6 +61,13 @@ td{
 p{
 	text-align: center;
 }
+* {
+    box-sizing: border-box;
+}
+[class*="col-"] {
+	float: left;
+	padding: 15px;
+}
 /* For mobile phones: */
 [class*="col-"] {
 	width=100%;
